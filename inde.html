@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>小鸟</title>
+		<style type="text/css">
+			canvas{
+				border: 1px solid #F00;
+				margin: 0 auto;
+				display: block;
+				background: skyblue;
+			}
+		</style>
+	</head>
+	<script src="js/simpleInheritance.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/underscore-min.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="js/Game.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/FrameUtil.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="js/StaticResoucesUtil.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Background.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Bird.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Piep.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/ScoreManage.js" type="text/javascript" charset="utf-8"></script>
+	<body>
+		<canvas id="canvas" width="" height="600"></canvas>
+	</body>
+</html>
+<script type="text/javascript">
+	var game=new Game({
+		"fps":60,
+		"canvasID":"canvas"
+	});
+
+  
+</script>

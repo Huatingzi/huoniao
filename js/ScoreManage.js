@@ -1,0 +1,1 @@
+!function(){function n(n,t,e){game.ctx.drawImage(game.images.number,40*n,0,40,57,t,e,40,57)}window.scoreManage=Class.extend({init:function(){this.score=0},addScore:function(){this.score++},updata:function(){},render:function(){for(var t=this.score.toString().length,e=game.canvas.width/2-t/2*40,a=0;a<t;a++){var i=parseInt(this.score.toString().substr(a,1));n(i,e+40*a,100)}}})}();

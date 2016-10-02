@@ -1,0 +1,1 @@
+!function(){window.FrameUtil=Class.extend({init:function(){this.currentFrame=0,this.sFrame=0,this.sTime=new Date,this.realFps=0},update:function(){this.currentFrame++;var e=new Date;e-this.sTime>=1e3&&(this.realFps=this.currentFrame-this.sFrame,this.sFrame=this.currentFrame,this.sTime=e)}})}();
